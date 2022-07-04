@@ -1,0 +1,89 @@
+  /* Universal Selector */
+  *{
+    margin:0;
+}
+/* Class Selector */
+.class {
+    color: red;
+
+}
+.class.special {
+      color:green;
+}
+
+.special {
+color:dodgerblue;
+}
+.nothing {
+background-color:#444;
+display:inline-block;
+}
+.special.nothing {
+background-color: yellow;
+}
+/* ID Selector */
+h2#btn {
+color:blueviolet;
+}
+span#btn {
+border:2px solid violet;
+}
+/* Attribute Selector */
+li[class^="a"]{
+color:aqua;
+}
+li[class$="n"]{
+background-color: cadetblue;
+}
+li[class*="a"]{
+border-left: 5px solid blue;
+margin:5px;
+}
+/* case sensitivity */
+li[class^="d" i ]{
+color:cornflowerblue;
+}
+li[class$="b"i]{
+background-color:darkviolet;
+display:inline-block;
+}
+li[class*="f"]{
+color:dodgerblue;
+display:inline-block;
+}
+/* Pseudo-classes */
+.gta:first-letter {
+color:burlywood;
+font-size: 25px;
+}
+h1[class*="ing"] {
+color: aqua;
+}
+/* Pseudo-element */
+/* first-child */
+section p:first-child {
+color:dodgerblue;
+}
+/* (first-child) in side the <p> tag */
+section p :first-child {
+background-color:yellow;
+}
+/* (:only-child) This class only child of a parent element */
+div:only-child {
+   color:burlywood;
+ }
+/* Apply both pseudo-element & pseudo-class */
+article p:last-child::first-letter {
+  background-color:dimgrey;
+  font-size:xx-large;
+}
+/* :nth-child() pseudo-class */
+.rgb p:nth-child(odd) {
+  color:darkorchid;
+  border:2px solid lightgray;
+}
+li:nth-child(3n+1) {
+  color:#fff;
+  background-color:#444;
+  border:2px solid rgb(70, 69, 69);
+}

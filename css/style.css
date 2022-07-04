@@ -1,0 +1,241 @@
+/* Reset*/
+*{
+    padding:0px;
+    margin:0px;
+}
+/*Main styling*/
+html,body {
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height:1.6em;
+}
+a {
+    color:#333;
+    text-decoration:none;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+
+p{
+  margin:10px 0px;  
+}
+/*utility class*/
+.container{
+    overflow: auto;
+      margin:auto;
+      max-width: 1100px;
+      padding:0;
+}
+#navbar {
+    position:sticky;
+    top:0px;
+}
+.text-primary{
+    color:#f7c08a;
+}
+.lead{
+    font-size:20px;
+}
+.btn{
+    background-color:#444;
+    font-size:18px;
+    color:#fff;
+    display:inline-block;
+    padding:13px 20px;
+    border:none;
+}
+.btn:hover{
+    color:#fff;
+    background-color:#ecccac;
+    transition-duration:0.8s;
+}
+.btn-light{
+    color:#333;
+    background-color:#fff;
+    padding:12px;
+    margin-top: 20px;
+}
+.btn-light:hover{
+    transition-duration:0.8s;
+    color:#222;
+    background-color:#f7c08a;
+}
+.bg-dark{
+    color:#fff;
+    background:#333;
+}
+.bg-primary{
+    background-color:#f7c08a;
+    color:#333;
+}
+.l-heading{
+    font-size:40px;
+}
+button{
+    margin:15px;
+}
+
+/* padding */
+.py-1{padding:10px 0px;}
+.py-2{padding:20px 0px;}
+.py-3{padding:10px 0px;}
+/* Navbar*/
+#navbar{
+background:#333;
+color:#fff;
+overflow:auto;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar h1{
+    float:left;
+    padding-top:20px;
+}
+#navbar ul{
+    list-style:none;
+    float:right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    padding:20px;
+    display:block;
+    text-align:center;
+    cursor: pointer;
+}
+#navbar li a:hover{
+    background-color:#444;
+    color:#f7c08a;
+    text-decoration:underline;
+    transition-duration:0.7s;
+}
+#navbar li a.current{
+ background-color:#444;
+ color:#f7c08a;
+}
+
+/* SHOWCASE */
+
+#showcase{ 
+    background:url(../showcase.jpg) no-repeat  center center/cover;
+    height:450px;
+}
+#showcase .showcase-content {
+    color:#fff;
+    text-align:center;
+    padding:130px;
+}
+ #showcase .showcase-content h1{
+    font-size:70px;
+    line-height:1.6em;
+}
+#showcase .showcase-content p{
+    line-height:1.9em;
+    padding-bottom:20px;
+}
+/* Home Info*/
+#home-info{
+    height:400px;
+}
+#home-info .info-img{
+    float:left;
+    width:50%;
+    background:url(../photo-1.jpg) no-repeat;
+    min-height:100%;
+}
+#home-info .info-content{
+    float:right;
+    width:40%;
+    text-align:center;
+    padding:27px 37px;
+    overflow:hidden;
+}
+#home-info .info-content p{
+    padding-bottom:60px;
+}
+/* Features*/
+.box{
+    width:33.33%;  
+    text-align:center;
+    float:left;
+    line-height:2em;
+}
+/* Footer*/
+#main-footer{
+    color:#fff;
+    background-color:#333;
+    text-align:center;
+    padding:16px;
+}
+.clr{
+    clear:both;
+}
+/* About Info */
+#about-info .info-right{
+    float:right;
+    width:50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display:block;
+    margin:auto;
+    width:70%;
+    border-radius:50%;
+}
+#about-info .info-left {
+  float:left;
+  width:50%;
+  min-height:100%;
+}
+/* Testimonials */
+#testimonials{
+    height:600px;
+    background:url(../test-bg.jpg)  no-repeat center center/cover;
+    padding-top:100px;
+}
+#testimonials .testimonials img{
+    width:100px;
+}
+#testimonials .l-heading{
+    color:#fff;
+    text-align:center;
+    padding-bottom:40px;
+}
+#testimonials .testimonials{
+    padding:20px;
+    margin-bottom:40px;
+    border-radius:3px;
+    opacity:0.8;
+}
+#testimonials .testimonials img{
+    float:left;
+    margin-right:20px;
+    width:100px;
+    border-radius:50%;
+}
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom:20px;
+    margin-left:10px;
+}
+#contact-form label {
+display: block;
+margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+    width:90%;
+    padding:10px;
+    border:1px solid #ddd;
+
+}
+#contact-form textarea{
+    height:100px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:none;
+    border-color:#f7c08a;
+}

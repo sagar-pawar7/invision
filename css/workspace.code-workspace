@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\image resource"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Hotel websight",
+		"liveServer.settings.port": 5501
+	}
+}
